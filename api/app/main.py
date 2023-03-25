@@ -50,9 +50,6 @@ async def post_invoice_item(item: InvoiceItem):
         print("Error: ", e)
         raise HTTPException(status_code=400, detail="Invalid date format")
         # return JSONResponse(status_code=status.HTTP_400_BAD_REQUEST, content=item_json)
-    
-        
-    
 
 def produce_kafka_message(message):
     producer = KafkaProducer(bootstrap_servers='kafka:9092', acks=1)
