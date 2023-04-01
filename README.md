@@ -1,13 +1,13 @@
 # Document Streaming Application
 Data Streaming workflow that sends JSON data via an API, and processed downstream with Apache Kafka and Apache Spark streaming, and persisted in a MongoDB instance.
 
-[!image]()
+[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/doc-streaming-banner.png)
 
 ---
 
 ## Application Architecture
 
-[!image]()
+[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/pipeline-architecture.png)
 
 ---
 
@@ -20,38 +20,37 @@ Data Streaming workflow that sends JSON data via an API, and processed downstrea
 ---
 ### Build and deploy the Data API
 
-[!image]()
+[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/fastapi-ui.png)
 
 
 ---
 
 ### Set up and deploy Kafka
 
-[!image]()
+[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/testing-sparkoutput-consumption.png)
 
 
 ---
 
 ### Test API connectivity using Insomnia
 
-[!image]()
 
 ---
 
 ### Setup and Deploy Spark Structured Streaming
 
-[!image]()
+[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/spark-ui-01.png)
 
-[!image]()
+[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/spark-ui-01.png)
 
 [!image]()
 
 ### Deploy MongoDB and Mongo Express
 
-[!image]()
+[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/mongo-express-ui.png)
 
 ### Create Dashboard UI with Streamlit
 
-[!image]()
+[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/streamlit%20dashboard.png)
 
 ## Ideas for improvement and tradeoffs
