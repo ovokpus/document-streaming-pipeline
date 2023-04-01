@@ -43,7 +43,7 @@ Data Streaming workflow that sends JSON data via an API, and processed downstrea
 
 ![image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/spark-ui-01.png)
 
-[!image]()
+[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/testing-sparkoutput-consumption.png)
 
 ### Deploy MongoDB and Mongo Express
 
