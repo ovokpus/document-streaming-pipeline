@@ -1,13 +1,13 @@
 # Document Streaming Application
 Data Streaming workflow that sends JSON data via an API, and processed downstream with Apache Kafka and Apache Spark streaming, and persisted in a MongoDB instance.
 
-[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/doc-streaming-banner.png)
+![image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/doc-streaming-banner.png)
 
 ---
 
 ## Application Architecture
 
-[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/pipeline-architecture.png)
+![image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/pipeline-architecture.png)
 
 ---
 
@@ -20,14 +20,14 @@ Data Streaming workflow that sends JSON data via an API, and processed downstrea
 ---
 ### Build and deploy the Data API
 
-[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/fastapi-ui.png)
+![image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/fastapi-ui.png)
 
 
 ---
 
 ### Set up and deploy Kafka
 
-[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/testing-sparkoutput-consumption.png)
+![image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/testing-sparkoutput-consumption.png)
 
 
 ---
@@ -39,18 +39,18 @@ Data Streaming workflow that sends JSON data via an API, and processed downstrea
 
 ### Setup and Deploy Spark Structured Streaming
 
-[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/spark-ui-01.png)
+![image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/spark-ui-01.png)
 
-[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/spark-ui-01.png)
+![image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/spark-ui-01.png)
 
 [!image]()
 
 ### Deploy MongoDB and Mongo Express
 
-[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/mongo-express-ui.png)
+![image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/mongo-express-ui.png)
 
 ### Create Dashboard UI with Streamlit
 
-[!image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/streamlit%20dashboard.png)
+![image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/streamlit%20dashboard.png)
 
 ## Ideas for improvement and tradeoffs
