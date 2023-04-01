@@ -1,4 +1,4 @@
-# Document Streaming Application
+# Document Streaming
 Data Streaming workflow that sends JSON data via an API, and processed downstream with Apache Kafka and Apache Spark streaming, and persisted in a MongoDB instance.
 
 ![image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/doc-streaming-banner.png)
