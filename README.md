@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.jpg" alt="Steel roller machine with gears feeding a flowing ribbon of paper sheets" width="100%"></p>
+
 # Document Streaming
 Data Streaming workflow that sends JSON data via an API, and processed downstream with data streaming applications, and then persisted in a NoSQL database instance. Finally, the data is consumed by a Streamlit Dashboard Application. 
 
