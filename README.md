@@ -16,6 +16,10 @@ Data Streaming workflow that sends JSON data via an API, and processed downstrea
 5. MongoDB for persisting streaming messages, and Mongo Express for viewing data inside MongoDB
 6. Streamlit dashboard for consuming data
 
+## Business case
+
+Nightly batch reports tell an online store about a stock-out or a sales spike a day late. This pipeline streams order events through FastAPI, Kafka and Spark into MongoDB and a live dashboard, so the team sees them within seconds. It is a learning project, and the case is strongest for retailers with enough event volume to justify running a stream. [docs/BUSINESS_CASE.md](docs/BUSINESS_CASE.md) covers the scenarios, an illustrative ROI model and the limits.
+
 ## Application Architecture
 
 ![image](https://github.com/ovokpus/document-streaming-pipeline/blob/main/img/pipeline-architecture.png)
